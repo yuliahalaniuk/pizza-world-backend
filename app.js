@@ -15,8 +15,4 @@ app.use((req, res) => {
   res.status(404).send("<h1>Not Found</h1>");
 });
 
-// app.listen(8080, () => {
-//   console.log("App listening on port 8080!");
-// });
-
 export default app;
