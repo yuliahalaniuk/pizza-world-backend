@@ -30,7 +30,7 @@ const pizzaSchema = new Schema({
     required: true,
   },
   category: {
-    type: Number,
+    type: [String],
     required: true,
   },
   rating: {
